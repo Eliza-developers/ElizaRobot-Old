@@ -56,7 +56,7 @@ Hi {}, my name is {}!
 You can find my list of available commands with /help.
 i'm a group manager bot. 
 
-Developed By- [『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★](https://t.me/DEBOJYOTINO1)
+Developed By- [™Zero hero™](https://t.me/zero4574)
 
 """
 
@@ -78,7 +78,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/ff917329746ab63e5ce1d.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/e7be1d841008db025fe2f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Supporting Team >> [ＧＥＮＥＲＡＬツ★](t.me/Animeweebs2)"""
@@ -199,22 +199,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add ASUNA to your group",
+                            text="👰 Add Eliza to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Animeweebs2"),
+                             url=f"https://t.me/Elizasupport"),
                          InlineKeyboardButton(
-                             text="CHAT WITH ANIME LOVERS",
-                             url="https://t.me/Animeweebs2")
+                             text="Logs channel",
+                             url="https://t.me/ElizeGbanlogs")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/sadhanhori/ASUNA_ROBOT")
+                             url="https://github.com/kari-36/ElizaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
